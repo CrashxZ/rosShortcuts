@@ -10,6 +10,6 @@ catkin_make
 cd src
 echo "Enter packege name"
 read pkg
-catkin_create_pkg $pkg std_msgs roscpp rospy geometry_msgs sensor_msgs nav_msgs
+catkin_create_pkg $pkg std_msgs roscpp rospy geometry_msgs sensor_msgs nav_msgs opencv2 cv_bridge
 
 
