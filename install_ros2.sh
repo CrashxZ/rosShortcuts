@@ -25,4 +25,4 @@ apt upgrade
 
 apt install ros-iron-desktop
 
-export "source /opt/ros/iron/setup.bash" >> /.bashrc
+echo "source /opt/ros/iron/setup.bash" >> /.bashrc
